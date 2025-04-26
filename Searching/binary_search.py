@@ -1,4 +1,14 @@
 def binary_search(arr, target):
+    """
+    Perform binary search on a sorted list to find the index of the target value.
+
+    Args:
+        arr (list): A list of sorted elements (ascending order).
+        target (any): The value to search for.
+
+    Returns:
+        int: The index of the target if found, otherwise -1.
+    """
     left, right = 0, len(arr) - 1
 
     while left <= right:

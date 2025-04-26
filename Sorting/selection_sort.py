@@ -1,4 +1,13 @@
 def selection_sort(arr):
+    """
+    Perform selection sort on a list to sort elements in ascending order.
+
+    Args:
+        arr (list): A list of elements to be sorted.
+
+    Returns:
+        list: The sorted list.
+    """
     n = len(arr)
     for i in range(n):
         min_idx = i
